@@ -179,3 +179,7 @@ class DatabaseManager:
 
     def close(self):
         self.conn.close()
+
+    # def deleted_all_orders(self):
+    #     self.cursor.execute("DELETE FROM stickers;")
+    #     self.conn.commit()
